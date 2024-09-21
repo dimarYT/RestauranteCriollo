@@ -1,0 +1,24 @@
+/* ESTO ES EL ESTILO DE HEADER/CABECERA*/
+body{
+    background-color: rgb(159, 156, 156) !important;
+}
+.cabecera{
+    background-color: #0e0e0e;
+}
+.logo img{
+    width: 70px;
+    height: 70px;
+}
+.crud a{
+    color: #fff;
+}
+.crud a:hover{
+    color: #908d8d;
+}
+table tr{
+    cursor: pointer;
+}
+.btn-size{
+    width: 50px;
+    height: 50px;
+}

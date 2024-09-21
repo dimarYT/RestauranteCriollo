@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contacto</title>
+    <script src="https://kit.fontawesome.com/283335a286.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&family=Mulish:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilochat.css">
+</head>
+
+<body>
+    <header class="encabezado">
+        <div class="contenedor-navegacion">
+            <div class="contenido-navegacion contenedor">
+                <div class="logo">
+                    <h2>Cris-<span class="verde">Corp</span>
+                </div>
+                <nav class="navegacion ocultar">
+                    <a href="index.html">Inicio</a>
+                    <a href="Sobre Nosotros.html">Sobre Nosotros</a>
+                    <a href="Menu.html">Menú</a>
+                    <a href="Contacto.html">Contacto</a>
+                    <a href="../Integrador2-2/Login Boostrap/Login.html">Iniciar Secion</a>
+                </nav>
+                <div class="hamburguesa">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+        <div class="contenido-header">
+            <div class="contenedor-encabezado">
+                <div class="texto-encabezado">
+                    <h2>Lideres a nivel Nacional</h2>
+                    <a href="#" class="btn bordes">Il Nuestro Menu</a>
+                </div>
+                <img data-src="assets/img/ensalada.webp" alt="ensalada">
+            </div>
+        </div>
+    </header>
+
+    <section class="chef contenedor">
+        <h2>Chef ejecutivo</h2>
+        <div class="contenido-chef">
+            <div class="texto-chef">
+                <h3>La exelencia está en la diversidad y el modo de progresar
+                    es conocer y comparar las diversidades de productos, culturas y
+                    técnicas
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus corporis dolores eveniet
+                    vitae,
+                    natus tempora recusandae hic laborum error ducimus repellat, laudantium temporibus tenetur totam
+                    sint
+                    consequuntur eligendi! Asperiores, ad.</p>
+                <a href="#" class="btn btn-verde">Leer Bíografia</a>
+            </div>
+            <div class="imagen-chef">
+                <img data-src="assets/img/chef.webp" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <div class="formulario-contacto contenedor">
+
+        <div class="informacion-contacto">
+            <h3>Contactanos</h3>
+            <p><i class="fas fa-map-marker-alt"></i>S.M.P-Maz A Lote 7 la Florida</p>
+            <p><i class="fas fa-envelope"></i>cris-corp@gmail.com</p>
+            <p><i class="fas fa-phone-alt"></i>933396357</p>
+            <div class="redes-sociales">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+
+        <form class="formulario">
+            <div class="input-formulario">
+                <label for="nombre">Nombre</label>
+                <input type="text" placeholder="Pedro" id="nombre">
+            </div>
+            <div class="input-formulario">
+                <label for="apellidos">Apellido</label>
+                <input type="text" placeholder="Pedro" id="apellidos">
+            </div>
+            <div class="input-formulario">
+                <label for="correo">Correo</label>
+                <input type="email" placeholder="ejemplo@ejemplo.com" id="correo">
+            </div>
+            <div class="input-formulario">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" placeholder="+90 543 779 9410" id="telefono">
+            </div>
+            <div class="input-formulario">
+                <label for="mensaje">Mensaje</label>
+                <textarea></textarea>
+            </div>
+            <div class="btn-formulario">
+                <input type="submit" class="btn btn-verde" value="Enviar">
+            </div>
+        </form>
+    </div>
+
+
+
+
+    <div class="pie-pagina ">
+        <div class="contenedor-piepagina contenedor">
+            <div class="info">
+                <h3>Dirección</h3>
+                <p>S.M.P-Maz A Lote 7 la Florida</p>
+            </div>
+            <div class="info">
+                <h3>Días especiales</h3>
+                <p>Sabados y Jueves 7am - 11pm</p>
+                <p>933396357</p>
+            </div>
+            <div class="info">
+                <h3>Horarios</h3>
+                <p>Lunes - Domingo 7am - 11pm</p>
+                <div class="redes-sociales redes-pie">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            <div class="info">
+                <h3>Noticias</h3>
+                <p>suscribete para recibir más noticias</p>
+                <input type="email" placeholder="Tu correo">
+                <input type="submit" class="btn btn-verde" value="Suscribirse">
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Proyecto Integrador 2, Crsipin Escobar Ronald Rolly</p>
+        <button id="toggleButton" onclick="toggleChat()">Mostrar/Ocultar Chat</button>
+        <div class="chat-container" id="chat-container">
+            <div class="chat-header">
+                <h2>CRI-CHATBOT</h2>
+            </div>
+            <div class="chat-body" id="chat-body">
+                
+            </div>
+            <div class="chat-footer">
+                <input type="text" id="user-input" placeholder="Escribe tu mensaje...">
+                <button onclick="sendMessage()">Enviar</button>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/app.js"></script>
+    <script>
+        window.embeddedChatbotConfig = {
+            chatbotId: "z_Rf5h56zvpCezNUdCyrp",
+            domain: "www.chatbase.co"
+        }
+    </script>
+    <script src="JS/chatbot.js"></script>
+    <script src="https://www.chatbase.co/embed.min.js" chatbotId="z_Rf5h56zvpCezNUdCyrp"
+        domain="www.chatbase.co" defer></script>
+
+</body>
+
+</html>
